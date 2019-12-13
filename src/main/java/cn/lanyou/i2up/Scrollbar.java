@@ -18,10 +18,10 @@ public class Scrollbar {
 		      Scrollbar  sb= new Scrollbar();
 		      sb.initDriver();
 		      sb.openURl(url);
-		      sb.executeScrollbar(scriptMaxLef);
-		      sb.executeScrollbar(scriptMinLef);
+		      //sb.executeScrollbar(scriptMaxLef);
+		      //sb.executeScrollbar(scriptMinLef);
 		      sb.executeScrollbar(scriptMaxTop);
-		      sb.executeScrollbar(scriptMinTop);
+		      //sb.executeScrollbar(scriptMinTop);
 		      
 			
 				
