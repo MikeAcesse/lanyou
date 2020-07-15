@@ -1,0 +1,952 @@
+2020-07-14 17:25:21,923 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:25:21,931 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:25:21,932 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30332][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-14 17:25:21,940 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:21,942 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:30332
+2020-07-14 17:25:21,946 - org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:30332
+2020-07-14 17:25:21,947 - org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:64722<->127.0.0.1:30332
+2020-07-14 17:25:21,947 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:25:21,947 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session HTTP/1.1
+2020-07-14 17:25:21,947 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:25:21,948 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:25:21,948 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session HTTP/1.1
+2020-07-14 17:25:21,949 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:25:21,949 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 550
+2020-07-14 17:25:21,949 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30332
+2020-07-14 17:25:21,949 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:25:21,950 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:25:21,950 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:25:21,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2020-07-14 17:25:21,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:21,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+2020-07-14 17:25:21,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30332[\r][\n]"
+2020-07-14 17:25:21,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:25:21,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:25:21,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:25:21,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:25:21,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{[\n]"
+2020-07-14 17:25:21,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2020-07-14 17:25:21,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2020-07-14 17:25:21,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2020-07-14 17:25:21,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "args": [],[\n]"
+2020-07-14 17:25:21,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "extensions": [][\n]"
+2020-07-14 17:25:21,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2020-07-14 17:25:21,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "version": "",[\n]"
+2020-07-14 17:25:21,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2020-07-14 17:25:21,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  },[\n]"
+2020-07-14 17:25:21,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2020-07-14 17:25:21,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-07-14 17:25:21,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2020-07-14 17:25:21,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2020-07-14 17:25:21,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2020-07-14 17:25:21,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "args": [],[\n]"
+2020-07-14 17:25:21,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "extensions": [][\n]"
+2020-07-14 17:25:21,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      },[\n]"
+2020-07-14 17:25:21,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "version": "",[\n]"
+2020-07-14 17:25:21,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2020-07-14 17:25:21,954 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2020-07-14 17:25:21,954 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2020-07-14 17:25:21,954 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2020-07-14 17:25:21,954 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-07-14 17:25:21,954 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      {[\n]"
+2020-07-14 17:25:21,954 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2020-07-14 17:25:21,954 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      }[\n]"
+2020-07-14 17:25:21,954 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    ][\n]"
+2020-07-14 17:25:21,954 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  }[\n]"
+2020-07-14 17:25:21,955 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "}"
+2020-07-14 17:25:26,836 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:25:26,836 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:686[\r][\n]"
+2020-07-14 17:25:26,836 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:26,836 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:25:26,837 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:25:26,837 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"76.0.3809.132","chrome":{"chromedriverVersion":"76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})","userDataDir":"C:\\Users\\SUPERME\\AppData\\Local\\Temp\\scoped_dir16788_373788902"},"goog:chromeOptions":{"debuggerAddress":"localhost:64724"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows nt","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"},"sessionId":"8c68a7ba47dd6ef4285f3f784ade125b"}}"
+2020-07-14 17:25:26,839 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:25:26,839 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:686
+2020-07-14 17:25:26,839 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:25:26,839 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:25:26,841 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:25:26,844 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30332] can be kept alive indefinitely
+2020-07-14 17:25:26,844 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:26,869 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:25:26,870 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:25:26,870 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:26,870 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:26,870 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:25:26,872 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:25:26,872 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:25:26,872 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/8c68a7ba47dd6ef4285f3f784ade125b/timeouts HTTP/1.1
+2020-07-14 17:25:26,872 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:25:26,872 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:25:26,872 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/8c68a7ba47dd6ef4285f3f784ade125b/timeouts HTTP/1.1
+2020-07-14 17:25:26,872 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:25:26,872 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 18
+2020-07-14 17:25:26,872 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30332
+2020-07-14 17:25:26,873 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:25:26,873 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:25:26,873 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:25:26,873 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/8c68a7ba47dd6ef4285f3f784ade125b/timeouts HTTP/1.1[\r][\n]"
+2020-07-14 17:25:26,873 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:26,873 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 18[\r][\n]"
+2020-07-14 17:25:26,873 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30332[\r][\n]"
+2020-07-14 17:25:26,873 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:25:26,873 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:25:26,873 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:25:26,874 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:25:26,874 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"implicit":10000}"
+2020-07-14 17:25:26,874 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:25:26,874 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 17:25:26,874 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:26,875 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:25:26,875 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:25:26,875 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 17:25:26,875 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:25:26,875 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 17:25:26,875 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:25:26,875 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:25:26,875 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:25:26,876 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30332] can be kept alive indefinitely
+2020-07-14 17:25:26,876 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:26,878 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:25:26,878 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:25:26,878 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:26,879 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:26,879 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:25:26,881 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:25:26,881 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:25:26,881 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/8c68a7ba47dd6ef4285f3f784ade125b/url HTTP/1.1
+2020-07-14 17:25:26,881 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:25:26,881 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:25:26,881 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/8c68a7ba47dd6ef4285f3f784ade125b/url HTTP/1.1
+2020-07-14 17:25:26,881 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:25:26,881 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 31
+2020-07-14 17:25:26,882 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30332
+2020-07-14 17:25:26,882 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:25:26,882 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:25:26,882 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:25:26,882 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/8c68a7ba47dd6ef4285f3f784ade125b/url HTTP/1.1[\r][\n]"
+2020-07-14 17:25:26,882 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:26,882 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 31[\r][\n]"
+2020-07-14 17:25:26,882 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30332[\r][\n]"
+2020-07-14 17:25:26,882 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:25:26,882 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:25:26,883 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:25:26,883 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:25:26,883 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"url":"https://www.baidu.com"}"
+2020-07-14 17:25:27,407 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:25:27,408 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 17:25:27,408 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:27,408 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:25:27,408 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:25:27,408 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 17:25:27,408 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:25:27,408 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 17:25:27,408 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:25:27,408 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:25:27,408 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:25:27,409 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30332] can be kept alive indefinitely
+2020-07-14 17:25:27,409 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:27,412 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:25:27,412 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:25:27,412 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:27,412 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:27,412 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:25:27,414 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:25:27,414 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:25:27,414 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/8c68a7ba47dd6ef4285f3f784ade125b/element HTTP/1.1
+2020-07-14 17:25:27,414 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:25:27,414 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:25:27,414 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/8c68a7ba47dd6ef4285f3f784ade125b/element HTTP/1.1
+2020-07-14 17:25:27,414 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:25:27,414 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 38
+2020-07-14 17:25:27,414 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30332
+2020-07-14 17:25:27,415 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:25:27,415 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:25:27,415 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:25:27,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/8c68a7ba47dd6ef4285f3f784ade125b/element HTTP/1.1[\r][\n]"
+2020-07-14 17:25:27,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:27,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 38[\r][\n]"
+2020-07-14 17:25:27,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30332[\r][\n]"
+2020-07-14 17:25:27,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:25:27,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:25:27,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:25:27,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:25:27,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"value":"#kw","using":"css selector"}"
+2020-07-14 17:25:27,426 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:25:27,426 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:88[\r][\n]"
+2020-07-14 17:25:27,426 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:27,426 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:25:27,426 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:25:27,426 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"4e108aa9-89ed-4c99-9ec6-40a1132b19f8"}}"
+2020-07-14 17:25:27,426 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:25:27,427 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:88
+2020-07-14 17:25:27,427 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:25:27,427 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:25:27,427 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:25:27,427 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30332] can be kept alive indefinitely
+2020-07-14 17:25:27,427 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:27,432 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:25:27,432 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:25:27,432 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:27,432 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:25:27,432 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:25:27,435 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:25:27,435 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:25:27,435 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/8c68a7ba47dd6ef4285f3f784ade125b/element/4e108aa9-89ed-4c99-9ec6-40a1132b19f8/value HTTP/1.1
+2020-07-14 17:25:27,435 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:25:27,435 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:25:27,435 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/8c68a7ba47dd6ef4285f3f784ade125b/element/4e108aa9-89ed-4c99-9ec6-40a1132b19f8/value HTTP/1.1
+2020-07-14 17:25:27,435 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:25:27,435 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 105
+2020-07-14 17:25:27,435 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30332
+2020-07-14 17:25:27,435 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:25:27,436 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:25:27,436 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:25:27,436 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/8c68a7ba47dd6ef4285f3f784ade125b/element/4e108aa9-89ed-4c99-9ec6-40a1132b19f8/value HTTP/1.1[\r][\n]"
+2020-07-14 17:25:27,436 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:27,436 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+2020-07-14 17:25:27,436 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30332[\r][\n]"
+2020-07-14 17:25:27,436 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:25:27,436 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:25:27,436 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:25:27,436 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:25:27,436 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"id":"4e108aa9-89ed-4c99-9ec6-40a1132b19f8","text":"Selenium","value":["S","e","l","e","n","i","u","m"]}"
+2020-07-14 17:25:27,525 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:25:27,525 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 17:25:27,525 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:25:27,526 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:25:27,526 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:25:27,526 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 17:25:27,526 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:25:27,526 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 17:25:27,526 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:25:27,526 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:25:27,526 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:25:27,526 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30332] can be kept alive indefinitely
+2020-07-14 17:25:27,526 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:13,085 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:26:13,093 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:26:13,094 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30060][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-14 17:26:13,103 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30060][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:13,104 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:30060
+2020-07-14 17:26:13,107 - org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:30060
+2020-07-14 17:26:13,108 - org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:64858<->127.0.0.1:30060
+2020-07-14 17:26:13,108 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:26:13,109 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session HTTP/1.1
+2020-07-14 17:26:13,109 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:26:13,109 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:26:13,110 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session HTTP/1.1
+2020-07-14 17:26:13,110 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:26:13,110 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 550
+2020-07-14 17:26:13,110 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30060
+2020-07-14 17:26:13,110 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:26:13,111 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:26:13,111 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:26:13,111 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2020-07-14 17:26:13,111 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:13,112 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+2020-07-14 17:26:13,112 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30060[\r][\n]"
+2020-07-14 17:26:13,112 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:26:13,112 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:26:13,112 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:26:13,112 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:26:13,112 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{[\n]"
+2020-07-14 17:26:13,112 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2020-07-14 17:26:13,113 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2020-07-14 17:26:13,113 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2020-07-14 17:26:13,113 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "args": [],[\n]"
+2020-07-14 17:26:13,113 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "extensions": [][\n]"
+2020-07-14 17:26:13,113 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2020-07-14 17:26:13,113 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "version": "",[\n]"
+2020-07-14 17:26:13,113 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2020-07-14 17:26:13,113 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  },[\n]"
+2020-07-14 17:26:13,113 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2020-07-14 17:26:13,114 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-07-14 17:26:13,114 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2020-07-14 17:26:13,114 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2020-07-14 17:26:13,114 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2020-07-14 17:26:13,114 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "args": [],[\n]"
+2020-07-14 17:26:13,114 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "extensions": [][\n]"
+2020-07-14 17:26:13,114 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      },[\n]"
+2020-07-14 17:26:13,114 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "version": "",[\n]"
+2020-07-14 17:26:13,114 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      {[\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      }[\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    ][\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  }[\n]"
+2020-07-14 17:26:13,115 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "}"
+2020-07-14 17:26:18,008 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:26:18,008 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:687[\r][\n]"
+2020-07-14 17:26:18,008 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:18,008 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:26:18,009 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:26:18,009 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"76.0.3809.132","chrome":{"chromedriverVersion":"76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})","userDataDir":"C:\\Users\\SUPERME\\AppData\\Local\\Temp\\scoped_dir39380_1823360884"},"goog:chromeOptions":{"debuggerAddress":"localhost:64859"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows nt","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"},"sessionId":"225ca177a88409c8482647720fe9a61d"}}"
+2020-07-14 17:26:18,010 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:26:18,011 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:687
+2020-07-14 17:26:18,011 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:26:18,011 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:26:18,013 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:26:18,016 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30060] can be kept alive indefinitely
+2020-07-14 17:26:18,016 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30060][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,042 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:26:18,042 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:26:18,042 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30060][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,043 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30060][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,043 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:26:18,045 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:26:18,045 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:26:18,045 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/225ca177a88409c8482647720fe9a61d/timeouts HTTP/1.1
+2020-07-14 17:26:18,045 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:26:18,045 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:26:18,045 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/225ca177a88409c8482647720fe9a61d/timeouts HTTP/1.1
+2020-07-14 17:26:18,045 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:26:18,045 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 18
+2020-07-14 17:26:18,046 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30060
+2020-07-14 17:26:18,046 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:26:18,046 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:26:18,046 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:26:18,046 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/225ca177a88409c8482647720fe9a61d/timeouts HTTP/1.1[\r][\n]"
+2020-07-14 17:26:18,046 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:18,046 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 18[\r][\n]"
+2020-07-14 17:26:18,046 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30060[\r][\n]"
+2020-07-14 17:26:18,046 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:26:18,046 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:26:18,046 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:26:18,047 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:26:18,047 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"implicit":10000}"
+2020-07-14 17:26:18,047 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:26:18,047 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 17:26:18,047 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:18,047 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:26:18,047 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:26:18,048 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 17:26:18,048 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:26:18,048 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 17:26:18,048 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:26:18,048 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:26:18,048 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:26:18,048 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30060] can be kept alive indefinitely
+2020-07-14 17:26:18,048 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30060][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,050 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:26:18,050 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:26:18,050 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30060][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,051 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30060][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,051 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:26:18,053 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:26:18,053 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:26:18,053 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/225ca177a88409c8482647720fe9a61d/url HTTP/1.1
+2020-07-14 17:26:18,053 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:26:18,053 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:26:18,053 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/225ca177a88409c8482647720fe9a61d/url HTTP/1.1
+2020-07-14 17:26:18,053 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:26:18,053 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 31
+2020-07-14 17:26:18,053 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30060
+2020-07-14 17:26:18,053 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:26:18,053 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:26:18,054 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:26:18,054 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/225ca177a88409c8482647720fe9a61d/url HTTP/1.1[\r][\n]"
+2020-07-14 17:26:18,054 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:18,054 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 31[\r][\n]"
+2020-07-14 17:26:18,054 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30060[\r][\n]"
+2020-07-14 17:26:18,054 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:26:18,054 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:26:18,054 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:26:18,054 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:26:18,054 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"url":"https://www.baidu.com"}"
+2020-07-14 17:26:18,722 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:26:18,723 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 17:26:18,723 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:18,723 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:26:18,723 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:26:18,723 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 17:26:18,723 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:26:18,723 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 17:26:18,723 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:26:18,723 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:26:18,724 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:26:18,724 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30060] can be kept alive indefinitely
+2020-07-14 17:26:18,724 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30060][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,727 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:26:18,727 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:26:18,727 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30060][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,727 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30060][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,727 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:26:18,729 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:26:18,729 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:26:18,729 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/225ca177a88409c8482647720fe9a61d/element HTTP/1.1
+2020-07-14 17:26:18,729 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:26:18,729 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:26:18,730 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/225ca177a88409c8482647720fe9a61d/element HTTP/1.1
+2020-07-14 17:26:18,730 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:26:18,730 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 38
+2020-07-14 17:26:18,730 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30060
+2020-07-14 17:26:18,730 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:26:18,730 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:26:18,730 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:26:18,731 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/225ca177a88409c8482647720fe9a61d/element HTTP/1.1[\r][\n]"
+2020-07-14 17:26:18,731 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:18,731 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 38[\r][\n]"
+2020-07-14 17:26:18,731 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30060[\r][\n]"
+2020-07-14 17:26:18,731 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:26:18,731 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:26:18,732 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:26:18,732 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:26:18,732 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"value":"#kw","using":"css selector"}"
+2020-07-14 17:26:18,742 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:26:18,742 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:88[\r][\n]"
+2020-07-14 17:26:18,742 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:18,742 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:26:18,742 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:26:18,742 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"3d17cc73-38a3-490e-be50-8ca938262a4c"}}"
+2020-07-14 17:26:18,742 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:26:18,742 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:88
+2020-07-14 17:26:18,743 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:26:18,743 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:26:18,743 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:26:18,743 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30060] can be kept alive indefinitely
+2020-07-14 17:26:18,743 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30060][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,747 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:26:18,748 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:26:18,748 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:30060][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,748 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:30060][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:26:18,748 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:26:18,750 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:26:18,750 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:26:18,750 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/225ca177a88409c8482647720fe9a61d/element/3d17cc73-38a3-490e-be50-8ca938262a4c/value HTTP/1.1
+2020-07-14 17:26:18,750 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:26:18,750 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:26:18,750 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/225ca177a88409c8482647720fe9a61d/element/3d17cc73-38a3-490e-be50-8ca938262a4c/value HTTP/1.1
+2020-07-14 17:26:18,750 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:26:18,750 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 105
+2020-07-14 17:26:18,750 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:30060
+2020-07-14 17:26:18,751 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:26:18,751 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:26:18,751 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:26:18,751 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/225ca177a88409c8482647720fe9a61d/element/3d17cc73-38a3-490e-be50-8ca938262a4c/value HTTP/1.1[\r][\n]"
+2020-07-14 17:26:18,751 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:18,751 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+2020-07-14 17:26:18,751 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:30060[\r][\n]"
+2020-07-14 17:26:18,751 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:26:18,751 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:26:18,751 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:26:18,752 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:26:18,752 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"id":"3d17cc73-38a3-490e-be50-8ca938262a4c","text":"Selenium","value":["S","e","l","e","n","i","u","m"]}"
+2020-07-14 17:26:18,854 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:26:18,855 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 17:26:18,855 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:26:18,855 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:26:18,855 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:26:18,855 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 17:26:18,855 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:26:18,855 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 17:26:18,855 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:26:18,855 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:26:18,855 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:26:18,856 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:30060] can be kept alive indefinitely
+2020-07-14 17:26:18,856 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:30060][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:26,921 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:27:26,930 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:27:26,931 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:24444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-14 17:27:26,939 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:24444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:26,940 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:24444
+2020-07-14 17:27:26,944 - org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:24444
+2020-07-14 17:27:26,945 - org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:65056<->127.0.0.1:24444
+2020-07-14 17:27:26,945 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:27:26,945 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session HTTP/1.1
+2020-07-14 17:27:26,946 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:27:26,946 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:27:26,947 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session HTTP/1.1
+2020-07-14 17:27:26,947 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:27:26,947 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 550
+2020-07-14 17:27:26,947 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:24444
+2020-07-14 17:27:26,947 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:27:26,948 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:27:26,948 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:27:26,948 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2020-07-14 17:27:26,949 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:26,949 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+2020-07-14 17:27:26,949 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:24444[\r][\n]"
+2020-07-14 17:27:26,949 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:27:26,949 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:27:26,949 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:27:26,949 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:27:26,949 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{[\n]"
+2020-07-14 17:27:26,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2020-07-14 17:27:26,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2020-07-14 17:27:26,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2020-07-14 17:27:26,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "args": [],[\n]"
+2020-07-14 17:27:26,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "extensions": [][\n]"
+2020-07-14 17:27:26,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2020-07-14 17:27:26,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "version": "",[\n]"
+2020-07-14 17:27:26,950 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2020-07-14 17:27:26,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  },[\n]"
+2020-07-14 17:27:26,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2020-07-14 17:27:26,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-07-14 17:27:26,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2020-07-14 17:27:26,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2020-07-14 17:27:26,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2020-07-14 17:27:26,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "args": [],[\n]"
+2020-07-14 17:27:26,951 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "extensions": [][\n]"
+2020-07-14 17:27:26,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      },[\n]"
+2020-07-14 17:27:26,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "version": "",[\n]"
+2020-07-14 17:27:26,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2020-07-14 17:27:26,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2020-07-14 17:27:26,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2020-07-14 17:27:26,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2020-07-14 17:27:26,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-07-14 17:27:26,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      {[\n]"
+2020-07-14 17:27:26,952 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2020-07-14 17:27:26,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      }[\n]"
+2020-07-14 17:27:26,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    ][\n]"
+2020-07-14 17:27:26,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  }[\n]"
+2020-07-14 17:27:26,953 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "}"
+2020-07-14 17:27:31,887 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:27:31,887 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:686[\r][\n]"
+2020-07-14 17:27:31,887 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:31,887 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:27:31,887 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:27:31,888 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"76.0.3809.132","chrome":{"chromedriverVersion":"76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})","userDataDir":"C:\\Users\\SUPERME\\AppData\\Local\\Temp\\scoped_dir60256_146060883"},"goog:chromeOptions":{"debuggerAddress":"localhost:65058"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows nt","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"},"sessionId":"62ec354fb5ff3d6a98597b17d30c468a"}}"
+2020-07-14 17:27:31,889 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:27:31,890 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:686
+2020-07-14 17:27:31,890 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:27:31,890 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:27:31,892 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:27:31,895 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:24444] can be kept alive indefinitely
+2020-07-14 17:27:31,895 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:24444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:31,920 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:27:31,920 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:27:31,920 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:24444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:31,921 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:24444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:31,921 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:27:31,923 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:27:31,923 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:27:31,923 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/62ec354fb5ff3d6a98597b17d30c468a/timeouts HTTP/1.1
+2020-07-14 17:27:31,923 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:27:31,923 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:27:31,923 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/62ec354fb5ff3d6a98597b17d30c468a/timeouts HTTP/1.1
+2020-07-14 17:27:31,923 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:27:31,924 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 18
+2020-07-14 17:27:31,924 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:24444
+2020-07-14 17:27:31,924 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:27:31,924 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:27:31,924 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:27:31,924 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/62ec354fb5ff3d6a98597b17d30c468a/timeouts HTTP/1.1[\r][\n]"
+2020-07-14 17:27:31,924 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:31,924 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 18[\r][\n]"
+2020-07-14 17:27:31,924 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:24444[\r][\n]"
+2020-07-14 17:27:31,924 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:27:31,925 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:27:31,925 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:27:31,925 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:27:31,925 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"implicit":10000}"
+2020-07-14 17:27:31,925 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:27:31,926 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 17:27:31,926 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:31,926 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:27:31,926 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:27:31,926 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 17:27:31,926 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:27:31,926 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 17:27:31,926 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:27:31,927 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:27:31,927 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:27:31,927 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:24444] can be kept alive indefinitely
+2020-07-14 17:27:31,927 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:24444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:31,929 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:27:31,929 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:27:31,929 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:24444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:31,930 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:24444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:31,930 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:27:31,932 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:27:31,932 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:27:31,932 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/62ec354fb5ff3d6a98597b17d30c468a/url HTTP/1.1
+2020-07-14 17:27:31,932 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:27:31,932 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:27:31,932 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/62ec354fb5ff3d6a98597b17d30c468a/url HTTP/1.1
+2020-07-14 17:27:31,932 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:27:31,932 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 31
+2020-07-14 17:27:31,932 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:24444
+2020-07-14 17:27:31,932 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:27:31,933 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:27:31,933 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:27:31,933 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/62ec354fb5ff3d6a98597b17d30c468a/url HTTP/1.1[\r][\n]"
+2020-07-14 17:27:31,933 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:31,933 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 31[\r][\n]"
+2020-07-14 17:27:31,933 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:24444[\r][\n]"
+2020-07-14 17:27:31,933 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:27:31,933 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:27:31,933 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:27:31,933 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:27:31,934 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"url":"https://www.baidu.com"}"
+2020-07-14 17:27:32,406 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:27:32,407 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 17:27:32,407 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:32,407 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:27:32,407 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:27:32,407 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 17:27:32,407 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:27:32,407 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 17:27:32,407 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:27:32,407 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:27:32,408 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:27:32,408 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:24444] can be kept alive indefinitely
+2020-07-14 17:27:32,408 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:24444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:32,411 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:27:32,411 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:27:32,411 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:24444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:32,411 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:24444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:32,411 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:27:32,413 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:27:32,413 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:27:32,413 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/62ec354fb5ff3d6a98597b17d30c468a/element HTTP/1.1
+2020-07-14 17:27:32,413 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:27:32,413 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:27:32,413 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/62ec354fb5ff3d6a98597b17d30c468a/element HTTP/1.1
+2020-07-14 17:27:32,413 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:27:32,413 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 38
+2020-07-14 17:27:32,413 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:24444
+2020-07-14 17:27:32,413 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:27:32,413 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:27:32,414 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:27:32,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/62ec354fb5ff3d6a98597b17d30c468a/element HTTP/1.1[\r][\n]"
+2020-07-14 17:27:32,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:32,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 38[\r][\n]"
+2020-07-14 17:27:32,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:24444[\r][\n]"
+2020-07-14 17:27:32,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:27:32,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:27:32,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:27:32,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:27:32,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"value":"#kw","using":"css selector"}"
+2020-07-14 17:27:32,424 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:27:32,424 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:88[\r][\n]"
+2020-07-14 17:27:32,424 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:32,424 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:27:32,424 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:27:32,424 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"ed968702-4097-44a3-943a-e8e4f5198ab8"}}"
+2020-07-14 17:27:32,424 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:27:32,425 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:88
+2020-07-14 17:27:32,425 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:27:32,425 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:27:32,425 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:27:32,425 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:24444] can be kept alive indefinitely
+2020-07-14 17:27:32,425 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:24444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:32,430 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 17:27:32,430 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 17:27:32,430 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:24444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:32,431 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:24444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:27:32,431 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 17:27:32,433 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 17:27:32,433 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 17:27:32,433 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/62ec354fb5ff3d6a98597b17d30c468a/element/ed968702-4097-44a3-943a-e8e4f5198ab8/value HTTP/1.1
+2020-07-14 17:27:32,433 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 17:27:32,433 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 17:27:32,433 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/62ec354fb5ff3d6a98597b17d30c468a/element/ed968702-4097-44a3-943a-e8e4f5198ab8/value HTTP/1.1
+2020-07-14 17:27:32,433 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 17:27:32,434 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 105
+2020-07-14 17:27:32,434 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:24444
+2020-07-14 17:27:32,434 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 17:27:32,434 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 17:27:32,434 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 17:27:32,434 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/62ec354fb5ff3d6a98597b17d30c468a/element/ed968702-4097-44a3-943a-e8e4f5198ab8/value HTTP/1.1[\r][\n]"
+2020-07-14 17:27:32,434 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:32,434 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+2020-07-14 17:27:32,434 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:24444[\r][\n]"
+2020-07-14 17:27:32,434 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 17:27:32,435 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 17:27:32,435 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 17:27:32,435 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 17:27:32,435 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"id":"ed968702-4097-44a3-943a-e8e4f5198ab8","text":"Selenium","value":["S","e","l","e","n","i","u","m"]}"
+2020-07-14 17:27:32,530 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 17:27:32,530 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 17:27:32,530 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 17:27:32,530 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 17:27:32,531 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 17:27:32,531 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 17:27:32,531 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 17:27:32,531 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 17:27:32,531 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 17:27:32,531 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 17:27:32,531 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 17:27:32,531 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:24444] can be kept alive indefinitely
+2020-07-14 17:27:32,531 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:24444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 17:28:37,249 - baidu -INFO - 启动浏览器
+2020-07-14 17:28:37,258 - baidu -INFO - 隐式等待10秒
+2020-07-14 17:28:37,839 - baidu -INFO - 打开百度首页
+2020-07-14 17:28:37,957 - baidu -INFO - 在搜索输入框输入selenium
+2020-07-14 17:28:58,293 - baidu -INFO - 启动浏览器
+2020-07-14 17:28:58,301 - baidu -INFO - 隐式等待10秒
+2020-07-14 17:28:59,018 - baidu -INFO - 打开百度首页
+2020-07-14 17:28:59,126 - baidu -INFO - 在搜索输入框输入selenium
+2020-07-14 17:29:27,749 - baidu -INFO - 启动浏览器
+2020-07-14 17:29:27,758 - baidu -INFO - 隐式等待10秒
+2020-07-14 17:29:28,259 - baidu -INFO - 打开百度首页
+2020-07-14 17:29:28,383 - baidu -INFO - 在搜索输入框输入selenium
+2020-07-14 17:31:23,356 - baidu -INFO - 启动浏览器
+2020-07-14 17:31:23,359 - baidu -ERROR - 我是error
+2020-07-14 17:31:23,360 - baidu -WARN - 我是warn
+2020-07-14 17:31:23,367 - baidu -INFO - 隐式等待10秒
+2020-07-14 17:31:24,426 - baidu -INFO - 打开百度首页
+2020-07-14 17:31:24,558 - baidu -INFO - 在搜索输入框输入selenium
+2020-07-14 17:38:20,366 - baidu -INFO - 启动浏览器
+2020-07-14 17:38:20,368 - baidu -ERROR - 我是error
+2020-07-14 17:38:20,368 - baidu -WARN - 我是warn
+2020-07-14 17:38:20,374 - baidu -INFO - 隐式等待10秒
+2020-07-14 17:38:21,130 - baidu -INFO - 打开百度首页
+2020-07-14 17:38:21,241 - baidu -INFO - 在搜索输入框输入selenium
+2020-07-14 17:41:06,588 - anthony_tester.TestBaidu -INFO - 启动浏览器
+2020-07-14 17:41:06,590 - anthony_tester.TestBaidu -ERROR - 我是error
+2020-07-14 17:41:06,590 - anthony_tester.TestBaidu -WARN - 我是warn
+2020-07-14 17:41:06,596 - anthony_tester.TestBaidu -INFO - 隐式等待10秒
+2020-07-14 17:41:07,300 - anthony_tester.TestBaidu -INFO - 打开百度首页
+2020-07-14 17:41:07,424 - anthony_tester.TestBaidu -INFO - 在搜索输入框输入selenium
+2020-07-14 18:20:04,353 - anthony_tester.TestBaidu -INFO - 启动浏览器
+2020-07-14 18:20:04,356 - anthony_tester.TestBaidu -ERROR - 我是error
+2020-07-14 18:20:04,356 - anthony_tester.TestBaidu -WARN - 我是warn
+2020-07-14 18:20:04,362 - anthony_tester.TestBaidu -INFO - 隐式等待10秒
+2020-07-14 18:20:05,154 - anthony_tester.TestBaidu -INFO - 打开百度首页
+2020-07-14 18:20:05,290 - anthony_tester.TestBaidu -INFO - 在搜索输入框输入selenium
+2020-07-14 18:20:31,822 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 18:20:31,830 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 18:20:31,831 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:41839][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-14 18:20:31,839 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:41839][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:31,840 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:41839
+2020-07-14 18:20:31,844 - org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:41839
+2020-07-14 18:20:31,845 - org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:56091<->127.0.0.1:41839
+2020-07-14 18:20:31,845 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 18:20:31,845 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session HTTP/1.1
+2020-07-14 18:20:31,846 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 18:20:31,846 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 18:20:31,847 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session HTTP/1.1
+2020-07-14 18:20:31,847 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 18:20:31,847 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 550
+2020-07-14 18:20:31,847 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:41839
+2020-07-14 18:20:31,847 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 18:20:31,848 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 18:20:31,848 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 18:20:31,848 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2020-07-14 18:20:31,849 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:31,849 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+2020-07-14 18:20:31,849 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:41839[\r][\n]"
+2020-07-14 18:20:31,849 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 18:20:31,849 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 18:20:31,849 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 18:20:31,849 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 18:20:31,849 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{[\n]"
+2020-07-14 18:20:31,850 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2020-07-14 18:20:31,850 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2020-07-14 18:20:31,850 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2020-07-14 18:20:31,850 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "args": [],[\n]"
+2020-07-14 18:20:31,850 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "extensions": [][\n]"
+2020-07-14 18:20:31,850 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2020-07-14 18:20:31,850 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "version": "",[\n]"
+2020-07-14 18:20:31,850 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2020-07-14 18:20:31,851 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  },[\n]"
+2020-07-14 18:20:31,851 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2020-07-14 18:20:31,851 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-07-14 18:20:31,851 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2020-07-14 18:20:31,851 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2020-07-14 18:20:31,851 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2020-07-14 18:20:31,851 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "args": [],[\n]"
+2020-07-14 18:20:31,851 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "extensions": [][\n]"
+2020-07-14 18:20:31,851 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      },[\n]"
+2020-07-14 18:20:31,852 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "version": "",[\n]"
+2020-07-14 18:20:31,852 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2020-07-14 18:20:31,852 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2020-07-14 18:20:31,852 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2020-07-14 18:20:31,852 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2020-07-14 18:20:31,852 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-07-14 18:20:31,852 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      {[\n]"
+2020-07-14 18:20:31,852 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2020-07-14 18:20:31,852 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      }[\n]"
+2020-07-14 18:20:31,853 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    ][\n]"
+2020-07-14 18:20:31,853 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  }[\n]"
+2020-07-14 18:20:31,853 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "}"
+2020-07-14 18:20:36,777 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 18:20:36,777 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:687[\r][\n]"
+2020-07-14 18:20:36,777 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:36,777 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 18:20:36,777 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 18:20:36,778 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"76.0.3809.132","chrome":{"chromedriverVersion":"76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})","userDataDir":"C:\\Users\\SUPERME\\AppData\\Local\\Temp\\scoped_dir61532_1594093192"},"goog:chromeOptions":{"debuggerAddress":"localhost:56093"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows nt","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"},"sessionId":"04e9e2cea1e58c6d973cff0921465c75"}}"
+2020-07-14 18:20:36,779 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 18:20:36,780 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:687
+2020-07-14 18:20:36,780 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 18:20:36,780 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 18:20:36,782 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 18:20:36,785 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:41839] can be kept alive indefinitely
+2020-07-14 18:20:36,785 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:41839][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:36,810 - anthony_tester.TestBaidu -INFO - 启动浏览器
+2020-07-14 18:20:36,810 - anthony_tester.TestBaidu -ERROR - 我是error
+2020-07-14 18:20:36,810 - anthony_tester.TestBaidu -DEBUG - 我是debug
+2020-07-14 18:20:36,810 - anthony_tester.TestBaidu -WARN - 我是warn
+2020-07-14 18:20:36,813 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 18:20:36,813 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 18:20:36,813 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:41839][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:36,814 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:41839][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:36,814 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 18:20:36,816 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 18:20:36,816 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 18:20:36,816 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/04e9e2cea1e58c6d973cff0921465c75/timeouts HTTP/1.1
+2020-07-14 18:20:36,816 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 18:20:36,816 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 18:20:36,816 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/04e9e2cea1e58c6d973cff0921465c75/timeouts HTTP/1.1
+2020-07-14 18:20:36,816 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 18:20:36,816 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 18
+2020-07-14 18:20:36,817 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:41839
+2020-07-14 18:20:36,817 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 18:20:36,817 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 18:20:36,817 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 18:20:36,817 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/04e9e2cea1e58c6d973cff0921465c75/timeouts HTTP/1.1[\r][\n]"
+2020-07-14 18:20:36,817 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:36,817 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 18[\r][\n]"
+2020-07-14 18:20:36,817 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:41839[\r][\n]"
+2020-07-14 18:20:36,817 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 18:20:36,818 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 18:20:36,818 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 18:20:36,818 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 18:20:36,818 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"implicit":10000}"
+2020-07-14 18:20:36,818 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 18:20:36,818 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 18:20:36,819 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:36,819 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 18:20:36,819 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 18:20:36,819 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 18:20:36,819 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 18:20:36,819 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 18:20:36,819 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 18:20:36,819 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 18:20:36,819 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 18:20:36,820 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:41839] can be kept alive indefinitely
+2020-07-14 18:20:36,820 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:41839][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:36,821 - anthony_tester.TestBaidu -INFO - 隐式等待10秒
+2020-07-14 18:20:36,821 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 18:20:36,822 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 18:20:36,822 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:41839][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:36,822 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:41839][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:36,822 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 18:20:36,824 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 18:20:36,824 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 18:20:36,824 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/04e9e2cea1e58c6d973cff0921465c75/url HTTP/1.1
+2020-07-14 18:20:36,824 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 18:20:36,824 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 18:20:36,824 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/04e9e2cea1e58c6d973cff0921465c75/url HTTP/1.1
+2020-07-14 18:20:36,824 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 18:20:36,824 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 31
+2020-07-14 18:20:36,825 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:41839
+2020-07-14 18:20:36,825 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 18:20:36,825 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 18:20:36,825 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 18:20:36,825 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/04e9e2cea1e58c6d973cff0921465c75/url HTTP/1.1[\r][\n]"
+2020-07-14 18:20:36,826 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:36,826 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 31[\r][\n]"
+2020-07-14 18:20:36,826 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:41839[\r][\n]"
+2020-07-14 18:20:36,826 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 18:20:36,826 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 18:20:36,826 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 18:20:36,826 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 18:20:36,826 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"url":"https://www.baidu.com"}"
+2020-07-14 18:20:37,578 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 18:20:37,578 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 18:20:37,578 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:37,578 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 18:20:37,578 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 18:20:37,578 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 18:20:37,578 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 18:20:37,578 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 18:20:37,578 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 18:20:37,579 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 18:20:37,579 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 18:20:37,579 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:41839] can be kept alive indefinitely
+2020-07-14 18:20:37,579 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:41839][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:37,579 - anthony_tester.TestBaidu -INFO - 打开百度首页
+2020-07-14 18:20:37,582 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 18:20:37,582 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 18:20:37,582 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:41839][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:37,582 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:41839][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:37,582 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 18:20:37,584 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 18:20:37,584 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 18:20:37,584 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/04e9e2cea1e58c6d973cff0921465c75/element HTTP/1.1
+2020-07-14 18:20:37,584 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 18:20:37,584 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 18:20:37,584 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/04e9e2cea1e58c6d973cff0921465c75/element HTTP/1.1
+2020-07-14 18:20:37,584 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 18:20:37,584 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 38
+2020-07-14 18:20:37,584 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:41839
+2020-07-14 18:20:37,584 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 18:20:37,584 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 18:20:37,585 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 18:20:37,585 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/04e9e2cea1e58c6d973cff0921465c75/element HTTP/1.1[\r][\n]"
+2020-07-14 18:20:37,585 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:37,585 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 38[\r][\n]"
+2020-07-14 18:20:37,585 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:41839[\r][\n]"
+2020-07-14 18:20:37,585 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 18:20:37,585 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 18:20:37,585 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 18:20:37,585 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 18:20:37,585 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"value":"#kw","using":"css selector"}"
+2020-07-14 18:20:37,594 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 18:20:37,594 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:88[\r][\n]"
+2020-07-14 18:20:37,594 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:37,595 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 18:20:37,595 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 18:20:37,595 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"050b8c0f-d156-42af-bbb8-6e14a36705cc"}}"
+2020-07-14 18:20:37,595 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 18:20:37,595 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:88
+2020-07-14 18:20:37,595 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 18:20:37,595 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 18:20:37,595 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 18:20:37,595 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:41839] can be kept alive indefinitely
+2020-07-14 18:20:37,596 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:41839][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:37,601 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: default
+2020-07-14 18:20:37,601 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2020-07-14 18:20:37,601 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:41839][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:37,601 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:41839][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:37,601 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Stale connection check
+2020-07-14 18:20:37,602 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-14 18:20:37,602 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: set socket timeout to 10800000
+2020-07-14 18:20:37,602 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/04e9e2cea1e58c6d973cff0921465c75/element/050b8c0f-d156-42af-bbb8-6e14a36705cc/value HTTP/1.1
+2020-07-14 18:20:37,602 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2020-07-14 18:20:37,602 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-14 18:20:37,602 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session/04e9e2cea1e58c6d973cff0921465c75/element/050b8c0f-d156-42af-bbb8-6e14a36705cc/value HTTP/1.1
+2020-07-14 18:20:37,602 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-14 18:20:37,602 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 105
+2020-07-14 18:20:37,602 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:41839
+2020-07-14 18:20:37,602 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-14 18:20:37,602 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-07-14 18:20:37,603 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-14 18:20:37,603 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session/04e9e2cea1e58c6d973cff0921465c75/element/050b8c0f-d156-42af-bbb8-6e14a36705cc/value HTTP/1.1[\r][\n]"
+2020-07-14 18:20:37,603 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:37,603 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+2020-07-14 18:20:37,603 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:41839[\r][\n]"
+2020-07-14 18:20:37,603 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-14 18:20:37,603 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-07-14 18:20:37,603 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-14 18:20:37,603 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2020-07-14 18:20:37,603 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{"id":"050b8c0f-d156-42af-bbb8-6e14a36705cc","text":"Selenium","value":["S","e","l","e","n","i","u","m"]}"
+2020-07-14 18:20:37,715 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-14 18:20:37,716 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:14[\r][\n]"
+2020-07-14 18:20:37,716 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-07-14 18:20:37,716 - org.apache.http.wire -DEBUG - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-07-14 18:20:37,716 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2020-07-14 18:20:37,716 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"value":null}"
+2020-07-14 18:20:37,716 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-14 18:20:37,716 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:14
+2020-07-14 18:20:37,716 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-07-14 18:20:37,716 - org.apache.http.headers -DEBUG - http-outgoing-0 << cache-control:no-cache
+2020-07-14 18:20:37,717 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
+2020-07-14 18:20:37,717 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:41839] can be kept alive indefinitely
+2020-07-14 18:20:37,717 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:41839][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-14 18:20:37,717 - anthony_tester.TestBaidu -INFO - 在搜索输入框输入selenium
+2020-07-14 18:21:51,902 - anthony_tester.TestBaidu -ERROR - 我是error
+2020-07-14 18:22:33,451 - anthony_tester.TestBaidu -INFO - 启动浏览器
+2020-07-14 18:22:33,454 - anthony_tester.TestBaidu -ERROR - 我是error
+2020-07-14 18:22:33,454 - anthony_tester.TestBaidu -WARN - 我是warn
+2020-07-14 18:22:33,460 - anthony_tester.TestBaidu -INFO - 隐式等待10秒
+2020-07-14 18:22:34,284 - anthony_tester.TestBaidu -INFO - 打开百度首页
+2020-07-14 18:22:34,398 - anthony_tester.TestBaidu -INFO - 在搜索输入框输入selenium
+2020-07-14 18:42:59,079 - anthony_tester.HandPopup -INFO - 创建DesiredCapabilities类的一个对象实例
+2020-07-14 18:42:59,083 - anthony_tester.HandPopup -INFO - 设置变量ACCEPT_SSL_CERTS的值为True
